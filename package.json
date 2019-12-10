@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "node server.js"
   },
   "dependencies": {
     "apollo-cache-inmemory": "^1.6.3",
@@ -13,6 +14,7 @@
     "apollo-link": "^1.2.13",
     "apollo-link-http": "^1.5.16",
     "core-js": "^3.4.3",
+    "express": "^4.17.1",
     "graphql": "^14.5.8",
     "graphql-tag": "^2.10.1",
     "vue": "^2.6.10",
