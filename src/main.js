@@ -7,6 +7,7 @@ import VueApollo from 'vue-apollo'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import styles from './assets/css/main.css';
 
 Vue.config.productionTip = false
 
@@ -31,6 +32,7 @@ const apolloProvider = new VueApollo({
 new Vue({
   router,
   store,
+  styles,
   apolloProvider,
   render: h => h(App)
 }).$mount('#app')
